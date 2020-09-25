@@ -3,6 +3,7 @@ title: Linux ACL 入門
 type: tech
 topics:
   - linux
+published: false
 ---
 
 # Linux ACL 入門
