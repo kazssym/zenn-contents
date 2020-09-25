@@ -21,5 +21,6 @@ user::rwx
 group::r-x
 other::r-x
 
-$
 ```
+
+ACL を何も設定していない場合はこのように表示されます。
