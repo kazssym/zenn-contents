@@ -1,5 +1,8 @@
 ---
 title: Linux ACL 入門
+type: tech
+topics:
+  - linux
 ---
 
 # Linux ACL 入門
