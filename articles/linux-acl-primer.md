@@ -1,5 +1,5 @@
 ---
-title: Linux ACL 入門
+title: Linux ACL 入門 (パート 1)
 type: tech
 topics:
   - linux
@@ -10,7 +10,8 @@ Linux のファイルシステムでは、ファイルの所有者 (ユーザー
 
 # アクセス権の確認
 
-`getfacl` コマンドを使います。例として、カレント ディレクトリのアクセス権を確認してみます。
+アクセス権の確認には `getfacl` コマンドを使います。
+ここでは例として、カレント ディレクトリのアクセス権を確認してみます。
 
 ```
 $ getfacl .
@@ -23,4 +24,26 @@ other::r-x
 
 ```
 
-ACL を何も設定していない場合はこのように表示されます。
+ACL を何も設定していない場合は通常このように表示されます。
+
+＃ アクセス権の設定
+
+ユーザー user2 のアクセス権を設定してみます。
+アクセス権の設定には `setfacl` コマンドを使用します。
+
+```
+$ setfacl -m u:user2:rwx .
+$ getfacl .
+# file: .
+# owner: user1
+# group: group1
+user::rwx
+user:user2:rwx
+group::r-x
+mask::rwx
+other::r-x
+
+```
+
+ユーザー user2 にアクセス権 `rwx` が設定されました。
+簡単ですね。
