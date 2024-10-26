@@ -2,7 +2,7 @@
 title: std::forward の使い方 (復習)
 type: tech
 topics:
-  - c++
+  - cpp
 published: false
 ---
 
