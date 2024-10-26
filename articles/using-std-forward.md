@@ -1,5 +1,5 @@
 ---
-title: `std::forward` の使い方 (復習)
+title: std::forward の使い方 (復習)
 type: tech
 topics:
   - c++
