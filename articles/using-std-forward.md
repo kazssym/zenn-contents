@@ -1,5 +1,6 @@
 ---
 title: std::forward の使い方 (復習)
+emoji: 📝
 type: tech
 topics:
   - cpp
