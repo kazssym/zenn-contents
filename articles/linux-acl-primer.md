@@ -1,5 +1,6 @@
 ---
 title: Linux ACL 入門 (パート 1)
+emoji: 📝
 type: tech
 topics:
   - linux
