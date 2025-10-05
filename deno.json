@@ -3,6 +3,6 @@
     "zenn-cli": "npm:zenn-cli@^0.2.3"
   },
   "tasks": {
-    "zenn": "deno run --allow-read=. --allow-write=. --allow-net --allow-env --allow-sys zenn-cli"
+    "zenn": "deno run --allow-read=.,$HOME,/proc/version --allow-write=.,$HOME/.config --allow-net=0.0.0.0,registry.npmjs.org:443,zenn.dev:443 --allow-env --allow-sys=homedir,osRelease zenn-cli"
   }
 }
