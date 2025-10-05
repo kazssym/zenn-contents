@@ -4,5 +4,5 @@
 		"ghcr.io/devcontainers-extra/features/deno:1": {}
 	},
 	"remoteUser": "root",
-	"onCreateCommand": "deno install npm:zenn-cli"
+	"onCreateCommand": "deno install"
 }
