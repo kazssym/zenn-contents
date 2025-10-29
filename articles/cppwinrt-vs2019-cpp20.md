@@ -5,7 +5,7 @@ type: tech
 topics:
   - cppwinrt
   - visualstudio
-published: false
+published: true
 ---
 
 # 発端
