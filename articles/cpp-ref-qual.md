@@ -4,7 +4,7 @@ emoji: 📝
 type: tech
 topics:
   - cpp
-published: false
+published: true
 ---
 
 C++ の参照修飾子の使用法についてのメモです。
