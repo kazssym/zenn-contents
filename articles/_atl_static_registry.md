@@ -5,7 +5,7 @@ type: tech
 topics:
   - cpp
   - visualstudio
-published: false
+published: true
 ---
 
 # 公式ドキュメントに書いてある情報を基にして ATL DLL を使わないように設定しようとしたら、 _ATL_STATIC_REGISTRY マクロがもう使われていないことが判明した件
@@ -18,4 +18,4 @@ published: false
 
 Visual Studio 2013 の時点で ATL DLL は使われなくなっていたと😢。 `_ATL_STATIC_REGISTRY` がどこにも見つからないのが当然という情報でした。
 
-Visual Studio のドキュメントが古い情報を書いているから AI の回答も間違えていたわけです。残っていても困らないから放置されていたと言うことでしょうか。
+Visual Studio のドキュメントが古い情報を書いているから AI の回答も間違えていたわけですね。残っていても困らないから放置されていたと言うことでしょうか。
