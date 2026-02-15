@@ -10,7 +10,7 @@ published: false
 
 # 公式ドキュメントに書いてある情報を基にして ATL DLL を使わないように設定しようとしたら、 _ATL_STATIC_REGISTRY マクロがもう使われていないことが判明した件
 
-[このページ](https://learn.microsoft.com/en-us/cpp/atl/setting-up-a-static-link-to-the-registrar-code-cpp-only) を基に ATL のレジストラーをプロジェクトで設定しようとして、必要なマクロ (`_ATL_STATIC_REGISTRY`) がどのように使われるか一応確認しておこうと考えたのが発端でした。そのためにヘッダー中で使われているところを検索したら全く見つからないので調べてみたら、とんでもないことが発覚したという顛末です。
+[このページ](https://learn.microsoft.com/en-us/cpp/atl/setting-up-a-static-link-to-the-registrar-code-cpp-only)を基に ATL のレジストラーをプロジェクトで設定しようとして、必要なマクロ (`_ATL_STATIC_REGISTRY`) がどのように使われるか一応確認しておこうと考えたのが発端でした。そのためにヘッダー中で使われているところを検索したら全く見つからないので調べてみたら、とんでもないことが発覚したという顛末です。
 
 この件について AI に質問すると、このマクロが依然必要であると回答されました。
 
